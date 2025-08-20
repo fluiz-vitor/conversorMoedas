@@ -1,14 +1,49 @@
-# Arquivos de ambiente
+# Arquivos de configuração sensíveis
 .env
-.env.local
-.env.development
-.env.test
+*.env
 
-# Arquivos gerados pelo IDE
-.idea/
-*.iml
-
-# Arquivos compilados
-bin/
+# Arquivos de build do Maven
 target/
-*.class
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos de IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos de configuração local
+application.properties
+application.yml
+application-local.properties
